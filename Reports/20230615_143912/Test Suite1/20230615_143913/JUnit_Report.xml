@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite1" time="96.565" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite1" tests="1" failures="0" errors="0" time="96.565" skipped="0" timestamp="2023-06-15 14:39:31" hostname="priscilla.d - inbl01lap5844.brd.g-c-i.com" id="Test Suites/Test Suite1">
+      <properties>
+         <property name="deviceName"/>
+         <property name="devicePlatform" value="WINDOWS"/>
+         <property name="logFolder" value="C:\\Users\\priscilla.d\\git\\TestOps-Session8.1\\Reports\\20230615_143912\\Test Suite1\\20230615_143913"/>
+         <property name="logFiles" value="C:\\Users\\priscilla.d\\git\\TestOps-Session8.1\\Reports\\20230615_143912\\Test Suite1\\20230615_143913\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="priscilla.d - inbl01lap5844.brd.g-c-i.com"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;chrome&quot;: {
+    &quot;chromedriverVersion&quot;: &quot;110.0.5481.30 (aedb656755c469651f01505a4f15e153fc606a1e-refs/branch-heads/5481@{#191})&quot;,
+    &quot;userDataDir&quot;: &quot;C:\\Program Files (x86)\\scoped_dir4252_513827507&quot;
+  },
+  &quot;os&quot;: &quot;windows&quot;,
+  &quot;se:cdpVersion&quot;: &quot;110.0.5481.104&quot;,
+  &quot;timeouts&quot;: {
+    &quot;implicit&quot;: 0,
+    &quot;pageLoad&quot;: 300000,
+    &quot;script&quot;: 30000
+  },
+  &quot;pageLoadStrategy&quot;: &quot;normal&quot;,
+  &quot;unhandledPromptBehavior&quot;: &quot;dismiss and notify&quot;,
+  &quot;strictFileInteractability&quot;: false,
+  &quot;platform&quot;: &quot;WINDOWS&quot;,
+  &quot;se:cdp&quot;: &quot;ws://10.0.2.15:4444/session/0297c5c6abddb5cdbdf1a6bfeea068d1/se/cdp&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;goog:chromeOptions&quot;: {
+    &quot;debuggerAddress&quot;: &quot;localhost:49847&quot;
+  },
+  &quot;requestId&quot;: &quot;467671df-5eb9-4593-9d2e-23e3ea264f27&quot;,
+  &quot;webauthn:extension:credBlob&quot;: true,
+  &quot;acceptInsecureCerts&quot;: false,
+  &quot;browserVersion&quot;: &quot;110.0.0.0&quot;,
+  &quot;browserName&quot;: &quot;chrome&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;userId&quot;: 1215653,
+    &quot;organizationId&quot;: &quot;1193147&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;runFromTestCloud&quot;: true,
+    &quot;usingTunnel&quot;: false
+  },
+  &quot;platformName&quot;: &quot;WINDOWS&quot;,
+  &quot;setWindowRect&quot;: true,
+  &quot;webauthn:extension:largeBlob&quot;: true,
+  &quot;webauthn:virtualAuthenticators&quot;: true
+}"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="remoteOS" value="Windows"/>
+         <property name="katalonVersion" value="8.6.0.208"/>
+         <property name="browser" value="Chrome 110.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="0297c5c6abddb5cdbdf1a6bfeea068d1"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test Case 1" time="96.006" classname="Test Cases/Test Case 1" status="PASSED">
+         <system-out><![CDATA[2023-06-15 14:39:31 - [TEST_CASE][PASSED] - Test Cases/Test Case 1: Test Cases/Test Case 1
+
+2023-06-15 14:39:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-06-15 14:39:33 - [MESSAGE][INFO] - User set preference: ['os', 'windows']
+
+2023-06-15 14:39:33 - [MESSAGE][INFO] - User set preference: ['browserName', 'chrome']
+
+2023-06-15 14:39:33 - [MESSAGE][INFO] - User set preference: ['browserVersion', '110']
+
+2023-06-15 14:39:33 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=1193147, tunnelId=, usingTunnel=false}']
+
+2023-06-15 14:39:33 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2023-06-15 14:39:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-06-15 14:40:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-06-15 14:40:55 - [TEST_STEP][PASSED] - navigateToUrl("https://www.youtube.com"): Navigate to 'https://www.youtube.com' successfully
+
+2023-06-15 14:41:00 - [MESSAGE][PASSED] - Navigate to 'https://www.youtube.com' successfully
+
+2023-06-15 14:41:00 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+2023-06-15 14:41:03 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2023-06-15 14:41:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-06-15 14:41:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-06-15 14:39:31 - [TEST_SUITE][PASSED] - Test Suite1: Test Cases/Test Case 1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

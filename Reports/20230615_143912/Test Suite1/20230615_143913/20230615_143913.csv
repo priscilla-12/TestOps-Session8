@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Suite1,Windows - Chrome 110.0.0.0,,,2023-06-15 14:39:31,2023-06-15 14:41:07,1m - 36.565s,PASSED
+,,,,,,,
+Test Cases/Test Case 1,Windows - Chrome 110.0.0.0,,,2023-06-15 14:39:31,2023-06-15 14:41:07,1m - 36.006s,PASSED
+"openBrowser("""")",Windows - Chrome 110.0.0.0,,,2023-06-15 14:39:32,2023-06-15 14:40:55,1m - 22.608s,PASSED
+"navigateToUrl(""https://www.youtube.com"")",Windows - Chrome 110.0.0.0,,,2023-06-15 14:40:55,2023-06-15 14:41:00,5.406s,PASSED
+delay(3),Windows - Chrome 110.0.0.0,,,2023-06-15 14:41:00,2023-06-15 14:41:03,3.130s,PASSED
+closeBrowser(),Windows - Chrome 110.0.0.0,,,2023-06-15 14:41:03,2023-06-15 14:41:07,4.030s,PASSED
